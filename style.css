@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+}
+.h1{
+    font-size: large;
+    font-weight: bold;
+    margin: 30px;
+}
+.navbar{
+    justify-content: space-between;
+    margin: 40px;
+}
+ul li{
+    list-style-type: none;
+    display: flex;
+}
+ul{
+    font-size: 20px;
+    gap: 30px;
+    display: flex;
+    margin:top;
+    font-weight: lighter;
+    color: black;
+    text-decoration: none;
+}
+a.li{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: blueviolet;
+    text-decoration: underline;
+}
+.inputfield{
+    background-color: white;
+    color:blue;
+    border: 1px solid blue;
+    font-weight: bolder;
+    font-size: larger;
+    text-align: center;
+    padding: 10px;
+    margin: 200px;
+    margin-top: 20px;
+    height: 40px;
+    width:150px;
+}
+.article{
+    display: inline;
+    margin: auto;
+    margin-top: 200px;
+    justify-content: center;
+    text-align: center;
+}
+.h2{
+    margin-top: -100px;
+    font-size: 10px;
+}
+.h11{
+    font-size: 30px;
+    font-weight: bolder;
+}
+div p{
+    font-size: 20px;
+}
+.input{
+    height: 50px;
+    padding: 10px;
+}
+.email{
+    height: 10px;
+    width:200px;
+    padding: 10px;
+    color: black;
+}
+.btn{
+    color: white;
+    background-color: red;
+    height:40px;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+}
+.id{
+    display: flex;
+    margin-left: auto;
+    margin: 60px;
+    gap: 120px;
+}
+.h22{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.p1{
+    font-size: 20px;
+}
+
+@media (max-width:320px){
+    .nav{
+        display: flex;
+    }
+    .nav ul{
+        display: none;
+    }
+    .inputfield{
+        justify-content: center;
+        align-items: center;
+        width: 80px;
+        height: 30px;
+        font-size: 12px;
+        margin-left: auto;
+    }
+    .h1{
+        font-size: 12px;
+        font-weight: lighter;
+    }
+    .h2{
+        font-size: 5px;
+    }
+    .h11{
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .h27{
+        font-size: 10px;
+    }
+    .input{
+        padding: 10px;
+    }
+    .email{
+        padding: 20px;
+    }
+    .btn{
+        width: 100px;
+        height: 40px;
+        margin: 10px;
+        text-align: center;
+    }
+    .h33{
+        text-align: center;
+        margin: 40px;
+        font-size: 1px;
+    }
+    .id{
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    .h22{
+        font-size: 15px;
+    }
+    .p1{
+        font-size: 15px;
+    }
+
+}
